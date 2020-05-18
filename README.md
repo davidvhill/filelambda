@@ -1,5 +1,5 @@
-# filelambda
-&#955; An obviously impure functional file library for Python.
+# filelambda &#955;
+An obviously impure functional file library for Python.
 
 ## Install
 ```
