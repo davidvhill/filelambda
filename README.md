@@ -6,8 +6,17 @@ An (impure) functional Python file library.
 pip install filelambda
 ```
 
-## Why?
-Functions are good. :)
+## Examples
+
+```python
+>>> from filelambda import files as f
+>>> f.write('/tmp/example.txt', 'Functions are good')
+18
+>>> f.read('/tmp/example.txt')
+'Functions are good'
+>>> f.delete('/tmp/example.txt')
+True
+```
 
 ## Reference
 
