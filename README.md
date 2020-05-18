@@ -6,7 +6,7 @@ An (impure) functional Python file library.
 pip install filelambda
 ```
 
-## Examples
+## Usage
 
 ```python
 from filelambda import files as f
