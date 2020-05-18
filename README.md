@@ -11,12 +11,12 @@ pip install filelambda
 ```python
 from filelambda import files as f
 
-filename = '/tmp/example.txt'
-text     = 'Functions are good'
+path = '/tmp/example.txt'
+text = 'Functions are good'
 
-w = f.write(filename, text)
-r = f.read(filename)
-d = f.delete(filename)
+w = f.write(path, text)
+r = f.read(path)
+d = f.delete(path)
 
 assert w == 18
 assert r == text
