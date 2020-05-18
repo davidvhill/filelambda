@@ -9,13 +9,18 @@ pip install filelambda
 ## Examples
 
 ```python
->>> from filelambda import files as f
->>> f.write('/tmp/example.txt', 'Functions are good')
-18
->>> f.read('/tmp/example.txt')
-'Functions are good'
->>> f.delete('/tmp/example.txt')
-True
+from filelambda import files as f
+
+filename = '/tmp/example.txt'
+text     = 'Functions are good'
+
+w = f.write(filename, text)
+r = f.read(filename)
+d = f.delete(filename)
+
+assert w == 18
+assert r == text
+assert d == True
 ```
 
 ## Reference
