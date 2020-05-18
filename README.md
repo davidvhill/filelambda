@@ -1,8 +1,13 @@
 # filelambda
 An (impure) functional Python file library.
 
+## Install
+```
+pip install filelambda
+```
+
 ## Why?
-Functions are good. :snail:
+Functions are good. :)
 
 ## Reference
 
